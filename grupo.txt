@@ -1,0 +1,87 @@
+==============================================================
+AGROORB · GLOBAL SOLUTION 2026/1
+FIAP · Engenharia de Software · 1º Ano · Turmas de Agosto
+==============================================================
+
+GRUPO: AgroOrb
+
+------------------------------------------------------
+INTEGRANTES
+------------------------------------------------------
+
+RM 567998 — Luis Fernando Santos Araujo
+RM 566678 — José Inácio Freitas da Silva
+RM 567687 — Jefferson Wrasek Galhardo Júnior
+RM 559852 — Nícolas Codognotto
+RM 568099 — Lucas Murta Vargas
+
+------------------------------------------------------
+PROJETO
+------------------------------------------------------
+
+Nome: AgroOrb
+Slogan: Dados do espaço, colheitas mais inteligentes.
+Tema: Indústria Espacial / Agro & Clima
+
+Descrição:
+Plataforma web de monitoramento agrícola baseada em dados orbitais,
+voltada para pequenos produtores rurais brasileiros. Transforma
+imagens e medições de satélites em status visual por setor, alertas
+automáticos e recomendações práticas para irrigação, manejo
+preventivo e resposta a eventos climáticos extremos.
+
+------------------------------------------------------
+VÍDEO PITCH (até 3 minutos)
+------------------------------------------------------
+
+Link: https://youtu.be/COLOCAR_LINK_AQUI
+
+(substituir pelo link real do YouTube/Drive/Vimeo antes da entrega)
+
+------------------------------------------------------
+TECNOLOGIAS UTILIZADAS
+------------------------------------------------------
+
+- React 19 + React Router 7 (Single Page Application)
+- Vite 8 (bundler)
+- CSS3 (Grid, Flexbox, custom properties, animações)
+- JavaScript ES6+
+- SVG inline (logo, ícones, decoração orbital)
+- VLibras (widget oficial de acessibilidade Libras do governo brasileiro)
+- localStorage API (persistência de cadastros)
+
+------------------------------------------------------
+ODS ATENDIDOS
+------------------------------------------------------
+
+ODS 2  — Fome zero e agricultura sustentável
+ODS 13 — Ação contra a mudança global do clima
+ODS 9  — Indústria, inovação e infraestrutura
+
+------------------------------------------------------
+COMO RODAR
+------------------------------------------------------
+
+Pré-requisito: Node.js >= 20.19
+
+1. Descompacte o arquivo .zip
+2. Abra o terminal na pasta do projeto
+3. Execute: npm install
+4. Execute: npm run dev
+5. Acesse http://localhost:5173 no navegador
+
+Para gerar o build de produção: npm run build
+
+------------------------------------------------------
+ESTRUTURA
+------------------------------------------------------
+
+3 páginas principais navegáveis:
+- / (Home) — apresentação do problema e solução
+- /painel — dashboard interativo com mapa da fazenda
+- /cadastro — cadastro de alertas com validação e persistência
+
+Acessibilidade Libras integrada via VLibras (widget oficial do
+governo brasileiro) em todas as páginas.
+
+==============================================================

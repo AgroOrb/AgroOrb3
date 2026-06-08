@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AgroOrb — Dados do espaço, colheitas mais inteligentes. Plataforma de monitoramento agrícola por satélite para pequenos produtores brasileiros." />
+    <meta name="theme-color" content="#0A0F1E" />
+    <title>AgroOrb · Dados do espaço, colheitas mais inteligentes</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- VLibras: widget oficial de acessibilidade em Libras (governo brasileiro) -->
+    <div vw="true" class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  </body>
+</html>
