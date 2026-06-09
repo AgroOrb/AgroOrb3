@@ -96,9 +96,7 @@ export default function Painel() {
 
           {/* Imagem de satélite estilizada da cidade */}
           <div className="satellite-view" aria-label={`Vista de satélite de ${cidade.nome}`}>
-            <div className="satellite-view__inner">
-              {/* Grid pattern */}
-              <div className="satellite-view__grid" aria-hidden="true"></div>
+            <div className="satellite-view__inner" style={{backgroundImage: `url(${cidade.foto})`}}>
               {/* Marcador da cidade */}
               <div className="satellite-view__pin">
                 <div className="satellite-view__pin-dot"></div>
@@ -107,13 +105,6 @@ export default function Painel() {
                   {cidade.coord.lat.toFixed(2)}°S · {Math.abs(cidade.coord.lng).toFixed(2)}°W
                 </div>
               </div>
-              {/* Manchas verdes simulando vegetação/lavoura */}
-              <div className="satellite-view__patch satellite-view__patch--1" aria-hidden="true"></div>
-              <div className="satellite-view__patch satellite-view__patch--2" aria-hidden="true"></div>
-              <div className="satellite-view__patch satellite-view__patch--3" aria-hidden="true"></div>
-              <div className="satellite-view__patch satellite-view__patch--4" aria-hidden="true"></div>
-              {/* Scanner orbital */}
-              <div className="satellite-view__scan" aria-hidden="true"></div>
               {/* Label canto inferior */}
               <div className="satellite-view__meta">
                 <span>▸ FONTE: CBERS-04A · Sentinel-2</span>

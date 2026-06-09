@@ -1697,7 +1697,6 @@ p { color: var(--text-mute); }
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  background: radial-gradient(ellipse at center, #0a1f1a 0%, #050a13 80%);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
@@ -1707,14 +1706,14 @@ p { color: var(--text-mute); }
 .satellite-view__inner {
   position: absolute;
   inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .satellite-view__grid {
   position: absolute;
   inset: 0;
-  background-image:
-    linear-gradient(rgba(63, 209, 178, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(63, 209, 178, 0.06) 1px, transparent 1px);
   background-size: 32px 32px;
 }
 
@@ -1766,28 +1765,6 @@ p { color: var(--text-mute); }
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
   margin-top: 0.5rem;
-}
-
-.satellite-view__patch {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(6px);
-  opacity: 0.45;
-}
-.satellite-view__patch--1 { top: 18%; left: 22%; width: 80px; height: 50px; background: #22C55E; }
-.satellite-view__patch--2 { bottom: 24%; right: 18%; width: 95px; height: 60px; background: #16A34A; }
-.satellite-view__patch--3 { top: 32%; right: 30%; width: 55px; height: 45px; background: #4ADE80; }
-.satellite-view__patch--4 { bottom: 15%; left: 28%; width: 70px; height: 40px; background: #22C55E; }
-
-.satellite-view__scan {
-  position: absolute;
-  top: 0;
-  left: -15%;
-  width: 15%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(63, 209, 178, 0.35), transparent);
-  animation: scanMove 6s linear infinite;
-  pointer-events: none;
 }
 
 @keyframes scanMove {
