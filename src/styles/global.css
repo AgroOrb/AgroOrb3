@@ -1765,58 +1765,6 @@ p {
 }
 
 /*
-   ACESSIBILIDADE — Card sobre Libras
-   */
-.libras-card {
-  background: linear-gradient(135deg, var(--surface), var(--surface-2));
-  border: 1px solid rgba(63, 209, 178, 0.25);
-  border-radius: var(--radius-lg);
-  padding: 2rem;
-  display: grid;
-  gap: 1.5rem;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-@media (min-width: 720px) {
-  .libras-card {
-    grid-template-columns: auto 1fr auto;
-  }
-}
-
-.libras-card__avatar {
-  width: 64px;
-  height: 64px;
-  border-radius: 16px;
-  background: var(--space-blue-glow);
-  display: grid;
-  place-items: center;
-  color: var(--space-blue);
-  flex-shrink: 0;
-}
-
-.libras-card__content h4 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.libras-card__content p {
-  font-size: 0.92rem;
-  color: var(--text-mute);
-  line-height: 1.55;
-}
-
-.libras-card__arrow {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--space-blue);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 /*
    PÁGINA NÃO ENCONTRADA
    */
@@ -1856,11 +1804,6 @@ p {
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-/* ===== VLibras override (mantém visibilidade) ===== */
-[vw] {
-  z-index: 999 !important;
 }
 
 /*

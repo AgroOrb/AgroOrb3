@@ -21,17 +21,18 @@ Pequenos agricultores no Brasil tomam decisões cruciais a partir da observaçã
 
 O AgroOrb é uma plataforma web que traduz dados orbitais complexos em recomendações simples e visuais para qualquer agricultor:
 
-| Camada | O que faz |
-|---|---|
+| Camada       | O que faz                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------ |
 | **Observar** | Integra dados de satélites públicos: CBERS-04A (INPE), Sentinel-2 (ESA), Landsat 9 (NASA), MODIS |
-| **Traduzir** | Status visual por cores: 🟢 verde (saudável), 🟡 amarelo (atenção), 🔴 vermelho (risco) |
-| **Agir** | Recomendações práticas: "iniciar irrigação", "monitorar 24h", "aplicar manejo preventivo" |
+| **Traduzir** | Status visual por cores: 🟢 verde (saudável), 🟡 amarelo (atenção), 🔴 vermelho (risco)          |
+| **Agir**     | Recomendações práticas: "iniciar irrigação", "monitorar 24h", "aplicar manejo preventivo"        |
 
 ---
 
 ## 🚀 Como rodar
 
 ### Pré-requisitos
+
 - **Node.js ≥ 20.19**
 - npm (já vem com Node)
 
@@ -57,7 +58,7 @@ npm run preview
 
 ```
 agroorb/
-├── index.html              # Entry HTML + integração VLibras
+├── index.html              # Entry HTML
 ├── package.json
 ├── vite.config.js
 ├── vercel.json             # SPA routing para deploy
@@ -86,21 +87,11 @@ agroorb/
 
 ## 🎯 Páginas
 
-| Página | Rota | Destaque |
-|---|---|---|
-| Home | `/` | Hero animado (satélites + folha), stats, problema, solução, benefícios, ODS |
-| **Painel** | `/painel` | **Mapa interativo da fazenda** com 4 setores clicáveis, KPIs dinâmicos, sidebar com detalhes e alertas |
-| Alertas | `/alertas` | Cadastro com validação, **persistência via localStorage**, lista de cadastros, toast de sucesso |
-
----
-
-## ♿ Acessibilidade
-
-O AgroOrb usa o **VLibras** — widget oficial do governo brasileiro que traduz **todo o conteúdo da página** para a Língua Brasileira de Sinais. É a referência de acessibilidade web no Brasil.
-
-🔗 https://vlibras.gov.br/
-
-O botão azul do VLibras aparece automaticamente no canto inferior direito de todas as páginas. Ao clicar, abre um painel com um avatar virtual que sinaliza o texto selecionado.
+| Página     | Rota       | Destaque                                                                                               |
+| ---------- | ---------- | ------------------------------------------------------------------------------------------------------ |
+| Home       | `/`        | Hero animado (satélites + folha), stats, problema, solução, benefícios, ODS                            |
+| **Painel** | `/painel`  | **Mapa interativo da fazenda** com 4 setores clicáveis, KPIs dinâmicos, sidebar com detalhes e alertas |
+| Alertas    | `/alertas` | Cadastro com validação, **persistência via localStorage**, lista de cadastros, toast de sucesso        |
 
 ---
 
@@ -126,7 +117,6 @@ O botão azul do VLibras aparece automaticamente no canto inferior direito de to
 - **Vite 8** — bundler e dev server
 - **CSS3 moderno** — Grid, Flexbox, custom properties, animações
 - **SVG inline** — logo, ícones, decoração orbital
-- **VLibras** (CDN oficial) — acessibilidade Libras
 - **localStorage API** — persistência local
 - **IntersectionObserver API** — animações on-scroll
 
@@ -143,10 +133,10 @@ O botão azul do VLibras aparece automaticamente no canto inferior direito de to
 
 ## 🌐 ODS atendidos
 
-| ODS | Como contribuímos |
-|---|---|
-| **ODS 2** — Fome zero e agricultura sustentável | Mais produtividade no campo, menos perdas de safra |
-| **ODS 13** — Ação contra mudança climática | Resposta antecipada a eventos climáticos extremos |
+| ODS                                              | Como contribuímos                                      |
+| ------------------------------------------------ | ------------------------------------------------------ |
+| **ODS 2** — Fome zero e agricultura sustentável  | Mais produtividade no campo, menos perdas de safra     |
+| **ODS 13** — Ação contra mudança climática       | Resposta antecipada a eventos climáticos extremos      |
 | **ODS 9** — Indústria, inovação e infraestrutura | Tecnologia espacial acessível para pequenos produtores |
 
 ---
@@ -162,13 +152,13 @@ O botão azul do VLibras aparece automaticamente no canto inferior direito de to
 
 ## 👥 Equipe
 
-| Nome | RM |
-|---|---|
-| Luis Fernando Santos Araujo | 567998 |
-| José Inácio Freitas da Silva | 566678 |
+| Nome                             | RM     |
+| -------------------------------- | ------ |
+| Luis Fernando Santos Araujo      | 567998 |
+| José Inácio Freitas da Silva     | 566678 |
 | Jefferson Wrasek Galhardo Júnior | 567687 |
-| Nícolas Codognotto | 559852 |
-| Lucas Murta Vargas | 568099 |
+| Nícolas Codognotto               | 559852 |
+| Lucas Murta Vargas               | 568099 |
 
 ---
 

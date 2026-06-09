@@ -47,7 +47,6 @@ TECNOLOGIAS UTILIZADAS
 - CSS3 (Grid, Flexbox, custom properties, animações)
 - JavaScript ES6+
 - SVG inline (logo, ícones, decoração orbital)
-- VLibras (widget oficial de acessibilidade Libras do governo brasileiro)
 - localStorage API (persistência de cadastros)
 
 ------------------------------------------------------
@@ -80,8 +79,3 @@ ESTRUTURA
 - / (Home) — apresentação do problema e solução
 - /painel — dashboard interativo com mapa da fazenda
 - /cadastro — cadastro de alertas com validação e persistência
-
-Acessibilidade Libras integrada via VLibras (widget oficial do
-governo brasileiro) em todas as páginas.
-
-==============================================================
