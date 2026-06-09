@@ -56,10 +56,6 @@ export default function Home() {
 
             <div className="hero__meta">
               <div className="hero__meta-item">
-                <span className="hero__meta-num">4</span>
-                <span className="hero__meta-label">Setores monitorados</span>
-              </div>
-              <div className="hero__meta-item">
                 <span className="hero__meta-num">24/7</span>
                 <span className="hero__meta-label">Observação contínua</span>
               </div>
@@ -96,32 +92,7 @@ export default function Home() {
 
         <div className="video-wrap">
           <div className="video-frame">
-            {/*
-              QUANDO TIVER O LINK DO YOUTUBE:
-              Descomente o <iframe> abaixo e troque YOUR_VIDEO_ID pelo ID
-              real (a parte depois de "v=" na URL do YouTube).
-              Em seguida, remova o bloco .video-placeholder.
-            */}
-            {/*
-            <iframe
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-              title="AgroOrb · Vídeo Pitch"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-            */}
-
-            {/* Placeholder enquanto o vídeo não está publicado */}
-            <div className="video-placeholder">
-              <div className="video-placeholder__play" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <h3>Pitch em <em style={{ color: 'var(--space-blue)', fontStyle: 'italic' }}>3 minutos</em></h3>
-              <p>O vídeo será publicado em breve no YouTube e aparecerá aqui automaticamente.</p>
-              <div className="video-placeholder__hint">▸ Substituir YOUR_VIDEO_ID em Home.jsx</div>
-            </div>
+            
           </div>
 
           
