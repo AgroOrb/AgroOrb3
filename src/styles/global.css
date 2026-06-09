@@ -16,6 +16,7 @@ input, select, textarea { font: inherit; color: inherit; }
 
 body {
   min-height: 100vh;
+  margin: 0 15px;
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
@@ -107,8 +108,8 @@ h1, h2, h3, h4 {
 
 h1 { font-size: clamp(2.4rem, 5.5vw, 4.5rem); }
 h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); }
-h3 { font-size: clamp(1.2rem, 1.8vw, 1.5rem); letter-spacing: -0.01em; }
-h4 { font-size: 1.05rem; letter-spacing: -0.01em; }
+h3 { font-size: clamp(1.2rem, 1.8vw, 1.5rem);}
+h4 { font-size: 1.05rem;}
 
 .italic { font-style: italic; color: var(--space-blue); }
 p { color: var(--text-mute); }
@@ -141,24 +142,24 @@ p { color: var(--text-mute); }
 }
 
 @media (min-width: 720px) {
-  .container { padding: 0 2.5rem; }
+  .container { padding: 0 2rem; }
 }
 
-.section { padding: 4.5rem 0; }
-.section--hero { padding: 4rem 0 5rem; }
-.section--compact { padding: 3rem 0; }
+.section { padding: 2rem 0; }
+.section--hero { padding: 3rem 0 5rem; }
+.section--compact { padding: 2.5rem 0; }
 
 @media (min-width: 720px) {
-  .section { padding: 6rem 0; }
-  .section--hero { padding: 5rem 0 7rem; }
+  .section { padding: 4.5rem 0; }
+  .section--hero { padding: 4rem 0 5.5rem; }
 }
 
 .section-header {
   max-width: 760px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 .section-header p {
-  margin-top: 0.875rem;
+  margin-top: 0.8rem;
   font-size: 1.05rem;
 }
 .section-header h2 { margin-top: 0.875rem; }
@@ -342,6 +343,7 @@ p { color: var(--text-mute); }
   display: grid;
   gap: 3rem;
   align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 980px) {
@@ -443,7 +445,7 @@ p { color: var(--text-mute); }
 /* Planeta — esfera verde simples (sem continentes), mantém identidade AgroOrb */
 .earth {
   position: relative;
-  width: 42%;
+  width: 30%;
   aspect-ratio: 1;
   border-radius: 50%;
   background: radial-gradient(
