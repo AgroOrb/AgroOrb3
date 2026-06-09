@@ -5,7 +5,7 @@ export default function NotFound() {
     <main className="container">
       <div className="not-found">
         <div className="not-found__code">▸ ERRO 404 / SETOR NÃO ENCONTRADO</div>
-        <h1>Esta órbita está <em style={{ color: 'var(--neon)', fontStyle: 'italic' }}>fora do mapa</em>.</h1>
+        <h1>Esta órbita está <em style={{ color: 'var(--space-blue)', fontStyle: 'italic' }}>fora do mapa</em>.</h1>
         <p>
           A página que você tentou acessar não foi encontrada. Pode ter sido movida,
           ou nunca existiu nessa coordenada.
