@@ -77,28 +77,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== VÍDEO PITCH ===== */}
-      <section className="video-section container reveal" ref={addReveal} id="video-pitch">
-        <div style={{ textAlign: 'center', maxWidth: 700, margin: '0 auto' }}>
-          <span className="eyebrow">Assista ao pitch</span>
-          <h2 style={{ marginTop: '1rem' }}>
-            3 minutos para entender o <em>AgroOrb</em>.
-          </h2>
-          <p style={{ marginTop: '0.875rem' }}>
-            Veja como dados de satélites viram alertas e recomendações práticas
-            para o pequeno produtor rural.
-          </p>
-        </div>
-
-        <div className="video-wrap">
-          <div className="video-frame">
-            
-          </div>
-
-          
-        </div>
-      </section>
-
       {/* ===== STATS ===== */}
       <section className="stats">
         <div className="container">
