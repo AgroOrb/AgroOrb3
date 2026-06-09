@@ -118,17 +118,13 @@ export default function Home() {
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </div>
-              <h3>Pitch em <em style={{ color: 'var(--neon)', fontStyle: 'italic' }}>3 minutos</em></h3>
+              <h3>Pitch em <em style={{ color: 'var(--space-blue)', fontStyle: 'italic' }}>3 minutos</em></h3>
               <p>O vídeo será publicado em breve no YouTube e aparecerá aqui automaticamente.</p>
               <div className="video-placeholder__hint">▸ Substituir YOUR_VIDEO_ID em Home.jsx</div>
             </div>
           </div>
 
-          <div className="video-meta">
-            <span className="video-meta__item">Duração 3 minutos</span>
-            <span className="video-meta__item">5 cenas sincronizadas</span>
-            <span className="video-meta__item">Acessibilidade Libras</span>
-          </div>
+          
         </div>
       </section>
 
@@ -137,19 +133,19 @@ export default function Home() {
         <div className="container">
           <div className="stats__grid">
             <div className="stat">
-              <div className="stat__num"><em>77</em>%</div>
+              <div className="stat__num">77%</div>
               <div className="stat__label">dos produtores rurais brasileiros<br/>são pequenos agricultores</div>
             </div>
             <div className="stat">
-              <div className="stat__num">R$ 2<em>5</em>bi</div>
+              <div className="stat__num">R$ 25bi</div>
               <div className="stat__label">perdas anuais por<br/>clima extremo no agro BR</div>
             </div>
             <div className="stat">
-              <div className="stat__num"><em>30</em>%</div>
+              <div className="stat__num">30%</div>
               <div className="stat__label">de água economizada<br/>com irrigação inteligente</div>
             </div>
             <div className="stat">
-              <div className="stat__num"><em>3</em>+</div>
+              <div className="stat__num">3+</div>
               <div className="stat__label">satélites consultados<br/>em cada análise</div>
             </div>
           </div>
@@ -215,7 +211,7 @@ export default function Home() {
       <section className="section container reveal" ref={addReveal}>
         <div className="section-header">
           <span className="eyebrow">A solução</span>
-          <h2>Satélites observam.<br /><em>AgroOrb</em> traduz.</h2>
+          <h2>Satélites observam, AgroOrb traduz.</h2>
           <p>
             Conectamos imagens e medições orbitais — temperatura, umidade, vegetação, alertas
             climáticos — a uma linguagem simples e visual. Cada setor da fazenda ganha cor,
@@ -375,7 +371,7 @@ export default function Home() {
       <section className="section container">
         <div className="cta-final reveal" ref={addReveal}>
           <span className="eyebrow">Comece agora</span>
-          <h2 style={{ marginTop: '1rem' }}>Cuide da sua fazenda <em>pelo olhar do espaço</em>.</h2>
+          <h2 style={{ marginTop: '1rem' }}>Cuide da sua plantação <em>pelo olhar do espaço</em>.</h2>
           <p>
             Abra o painel interativo e explore o status de cada setor monitorado, o tipo de risco
             e a recomendação atual em tempo real.
